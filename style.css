@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  background-color: #f4d04e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border-radius: 20px;
+  width: 38.4rem;
+  background-color: white;
+  box-shadow: 16px 16px 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.4rem;
+  border: 1px solid black;
+}
+
+.header {
+  margin-top: 2.4rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.header img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: start;
+
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.tag {
+  padding: 0.4rem 1.2rem;
+  background-color: #f4d04e;
+  font-size: 1.4rem;
+  font-weight: 900;
+  border-radius: 4px;
+}
+
+.date {
+  font-size: 1.4rem;
+}
+
+.title a {
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+}
+
+.title a:hover {
+  color: #f4d04e;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: #7f7f7f;
+}
+
+.footer {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  margin-bottom: 2.4rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.footer img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 32.7rem;
+  }
+  .tag {
+    font-size: 1.2rem;
+  }
+  .date {
+    font-size: 1.2rem;
+  }
+  .title a {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 1.4rem;
+  }
+}
